@@ -1,14 +1,9 @@
 {
-  "functions": {
-    "api/*.js": {
-      "runtime": "nodejs18.x"
-    }
-  },
   "build": {
     "env": {
       "HUGO_VERSION": "0.159.1"
     }
   },
-  "installCommand": "npm install",
-  "buildCommand": "hugo --gc --minify"
+  "buildCommand": "hugo --gc --minify",
+  "installCommand": "npm install"
 }
