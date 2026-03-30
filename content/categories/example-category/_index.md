@@ -1,10 +1,10 @@
 ---
 title: Example Category
-description: A description of this category
-image:
+description: 一个分类示例的描述
+image: https://picsum.photos/seed/786647/1200/600
 
 # Badge style
 style:
-    background: "#2a9d8f"
-    color: "#fff"
+  background: "blue"
+  color: "#fff"
 ---

@@ -1,10 +1,12 @@
 ---
-title: 专栏
+title: 吴小如讲杜诗
+image: https://picsum.photos/seed/786647/1200/600
 layout: "taxonomy"
+categories: "古诗词文"
 slug: "collections"
-url: "/columns/"
+url: "/books/"
 titleIcon: fa-brands fa-redhat
 cascade:
-  - url: "/columns/:slug" # 自定义路径
+  - url: "/books/:slug" # 自定义路径
   - categories: "吴小如讲杜诗"
 ---
