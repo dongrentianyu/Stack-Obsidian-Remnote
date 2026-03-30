@@ -1,9 +1,10 @@
 {
+  "buildCommand": "hugo --gc --minify",
+  "outputDirectory": "public",
   "build": {
     "env": {
-      "HUGO_VERSION": "0.159.1"
+      "HUGO_VERSION": "0.159.1",
+      "GO_VERSION": "1.23"
     }
-  },
-  "buildCommand": "hugo --gc --minify",
-  "installCommand": "npm install"
+  }
 }
