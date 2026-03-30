@@ -18,7 +18,7 @@ icon = "brand-github"
 [[social]]
 identifier = "vercel"
 name = "Vercel"
-url = "https://twitter.com"
+url = "https://s-o-r.vercel.app/"
 
 [social.params]
 icon = "vercel"

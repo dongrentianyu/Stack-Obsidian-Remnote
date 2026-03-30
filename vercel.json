@@ -1,10 +1,8 @@
 {
   "buildCommand": "hugo --gc --minify",
   "outputDirectory": "public",
-  "build": {
-    "env": {
-      "HUGO_VERSION": "0.159.1",
-      "GO_VERSION": "1.23"
-    }
+  "installCommand": "dnf install -y golang",
+  "env": {
+    "HUGO_VERSION": "0.159.1"
   }
 }
